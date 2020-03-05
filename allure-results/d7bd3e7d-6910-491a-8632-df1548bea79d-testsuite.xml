@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583415346969' stop='1583415369262'>
+    <name>parabank website automation</name>
+    <title>parabank website automation</title>
+    <test-cases>
+        <test-case start='1583415356850' status='passed' stop='1583415357324'>
+            <name>should validate registration page title</name>
+            <title>should validate registration page title</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1c58fda2-d655-47b7-84fd-e7938cfd5150-attachment.png' type='image/png' size='221166'/>
+            </attachments>
+        </test-case>
+        <test-case start='1583415357325' status='passed' stop='1583415358458'>
+            <name>validate registation link functionality</name>
+            <title>validate registation link functionality</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5e73aff5-049f-463f-8e86-f44921bb1881-attachment.png' type='image/png' size='115479'/>
+            </attachments>
+        </test-case>
+        <test-case start='1583415358458' status='passed' stop='1583415361422'>
+            <name>Validate  error message functionality of firstName and lastName</name>
+            <title>Validate  error message functionality of firstName and lastName</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='87d7545f-8f7f-41fe-bfa1-777c161c6dc0-attachment.png' type='image/png' size='128447'/>
+            </attachments>
+        </test-case>
+        <test-case start='1583415361422' status='passed' stop='1583415362997'>
+            <name>varify password functionality for mismatched password with confirm password</name>
+            <title>varify password functionality for mismatched password with confirm password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d72c5390-483f-4858-9306-633874d26afa-attachment.png' type='image/png' size='126845'/>
+            </attachments>
+        </test-case>
+        <test-case start='1583415362997' status='passed' stop='1583415364652'>
+            <name>Varify errormessage functionality of first name when first name is filled</name>
+            <title>Varify errormessage functionality of first name when first name is filled</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4102a350-9d62-4e27-bc07-beb5dd384f2c-attachment.png' type='image/png' size='127336'/>
+            </attachments>
+        </test-case>
+        <test-case start='1583415364652' status='passed' stop='1583415365145'>
+            <name>should show error message for empty phone number field</name>
+            <title>should show error message for empty phone number field</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5c5a2388-9cbe-47c5-9ba9-d5fb1242dc08-attachment.png' type='image/png' size='127321'/>
+            </attachments>
+        </test-case>
+        <test-case start='1583415365145' status='passed' stop='1583415369260'>
+            <name>fill registration page and validation successfull registration page</name>
+            <title>fill registration page and validation successfull registration page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='050895c9-26c0-41b0-bf98-a2979f2f9792-attachment.png' type='image/png' size='117118'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

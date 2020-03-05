@@ -1,0 +1,292 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583416181852' stop='1583416195678'>
+    <name>parabank website automation</name>
+    <title>parabank website automation</title>
+    <test-cases>
+        <test-case start='1583416192054' status='passed' stop='1583416192565'>
+            <name>should validate registration page title</name>
+            <title>should validate registration page title</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='41e42df1-63b8-4625-b49c-0285ed9ca50c-attachment.png' type='image/png' size='221166'/>
+            </attachments>
+        </test-case>
+        <test-case start='1583416192565' status='passed' stop='1583416193003'>
+            <name>validate registation link functionality</name>
+            <title>validate registation link functionality</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b964cc3a-b161-43dd-9e02-b8b37fef4d68-attachment.png' type='image/png' size='221159'/>
+            </attachments>
+        </test-case>
+        <test-case start='1583416193003' status='failed' stop='1583416193541'>
+            <name>Validate  error message functionality of firstName and lastName</name>
+            <title>Validate  error message functionality of firstName and lastName</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='58b028af-ab6e-4796-bccc-c355a8501f38-attachment.png' type='image/png' size='221166'/>
+            </attachments>
+            <failure>
+                <message>Failed: No element found using locator: By(css selector, input[value='Register'])</message>
+                <stack-trace>NoSuchElementError: No element found using locator: By(css selector, input[value='Register'])
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27
+                    at ManagedPromise.invokeCallback_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as click] (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as click] (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at ElementHelper.clickOnElement (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\helper\elementHelper.js:16:64)
+                    at Function.clickOnRegisterButton (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\pages\registrationPageTest.js:29:23)
+                    at UserContext.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:16:49)
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                From: Task: Run it("Validate  error message functionality of firstName and lastName") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:15:5)
+                    at addSpecsToSuite (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:4:1)
+                    at Module._compile (internal/modules/cjs/loader.js:959:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+                    at Module.load (internal/modules/cjs/loader.js:815:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:727:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583416193541' status='failed' stop='1583416194058'>
+            <name>varify password functionality for mismatched password with confirm password</name>
+            <title>varify password functionality for mismatched password with confirm password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d047e197-fc98-4313-8aef-c0ccef8f144b-attachment.png' type='image/png' size='221159'/>
+            </attachments>
+            <failure>
+                <message>Failed: No element found using locator: By(css selector, *[id="customer\.password"])</message>
+                <stack-trace>NoSuchElementError: No element found using locator: By(css selector, *[id="customer\.password"])
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27
+                    at ManagedPromise.invokeCallback_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as clear] (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as clear] (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at ElementHelper.sendData (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\helper\elementHelper.js:27:24)
+                    at Function.varifyPasswordFunctionality (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\pages\registrationPageTest.js:78:23)
+                    at UserContext.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:21:49)
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                From: Task: Run it("varify password functionality for mismatched password with confirm password") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:20:5)
+                    at addSpecsToSuite (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:4:1)
+                    at Module._compile (internal/modules/cjs/loader.js:959:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+                    at Module.load (internal/modules/cjs/loader.js:815:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:727:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583416194058' status='failed' stop='1583416194521'>
+            <name>Varify errormessage functionality of first name when first name is filled</name>
+            <title>Varify errormessage functionality of first name when first name is filled</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f3876790-a21f-40ea-9f3a-7280c87e7508-attachment.png' type='image/png' size='221166'/>
+            </attachments>
+            <failure>
+                <message>Failed: No element found using locator: By(css selector, *[id="customer\.firstName"])</message>
+                <stack-trace>NoSuchElementError: No element found using locator: By(css selector, *[id="customer\.firstName"])
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27
+                    at ManagedPromise.invokeCallback_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as clear] (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as clear] (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at ElementHelper.sendData (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\helper\elementHelper.js:27:24)
+                    at Function.varifyFirstNameErrorMessage (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\pages\registrationPageTest.js:87:23)
+                    at UserContext.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:24:49)
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                From: Task: Run it("Varify errormessage functionality of first name when first name is filled") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:23:5)
+                    at addSpecsToSuite (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:4:1)
+                    at Module._compile (internal/modules/cjs/loader.js:959:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+                    at Module.load (internal/modules/cjs/loader.js:815:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:727:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583416194521' status='failed' stop='1583416194955'>
+            <name>should show error message for empty phone number field</name>
+            <title>should show error message for empty phone number field</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4640b182-0958-421e-a3d4-2288c23d773e-attachment.png' type='image/png' size='221159'/>
+            </attachments>
+            <failure>
+                <message>Failed: No element found using locator: By(css selector, input[value='Register'])</message>
+                <stack-trace>NoSuchElementError: No element found using locator: By(css selector, input[value='Register'])
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27
+                    at ManagedPromise.invokeCallback_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as click] (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as click] (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at ElementHelper.clickOnElement (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\helper\elementHelper.js:16:64)
+                    at Function.varifyPhNumberErrorMessage (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\pages\registrationPageTest.js:96:23)
+                    at UserContext.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:27:49)
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                From: Task: Run it("should show error message for empty phone number field") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:26:5)
+                    at addSpecsToSuite (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:4:1)
+                    at Module._compile (internal/modules/cjs/loader.js:959:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+                    at Module.load (internal/modules/cjs/loader.js:815:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:727:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583416194956' status='failed' stop='1583416195677'>
+            <name>fill registration page and validation successfull registration page</name>
+            <title>fill registration page and validation successfull registration page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4a2eaae6-48b4-4045-84d9-1792deefc2e6-attachment.png' type='image/png' size='221166'/>
+            </attachments>
+            <failure>
+                <message>Failed: No element found using locator: By(css selector, *[id="customer\.firstName"])</message>
+                <stack-trace>NoSuchElementError: No element found using locator: By(css selector, *[id="customer\.firstName"])
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27
+                    at ManagedPromise.invokeCallback_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as clear] (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as clear] (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at ElementHelper.sendData (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\helper\elementHelper.js:27:24)
+                    at Function.sendFirstName (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\pages\registrationPageTest.js:45:23)
+                    at UserContext.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:30:49)
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                From: Task: Run it("fill registration page and validation successfull registration page") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:29:5)
+                    at addSpecsToSuite (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:4:1)
+                    at Module._compile (internal/modules/cjs/loader.js:959:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+                    at Module.load (internal/modules/cjs/loader.js:815:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:727:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

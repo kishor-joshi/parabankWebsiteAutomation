@@ -1,0 +1,89 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583416474390' stop='1583416499686'>
+    <name>parabank website automation</name>
+    <title>parabank website automation</title>
+    <test-cases>
+        <test-case start='1583416484738' status='passed' stop='1583416485180'>
+            <name>should validate registration page title</name>
+            <title>should validate registration page title</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c921a5ae-e399-45bd-931a-88f18bf90e09-attachment.png' type='image/png' size='221165'/>
+            </attachments>
+        </test-case>
+        <test-case start='1583416485180' status='passed' stop='1583416486407'>
+            <name>validate registation link functionality</name>
+            <title>validate registation link functionality</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='089dd002-5e1b-47e4-ab51-4985ab668db0-attachment.png' type='image/png' size='115479'/>
+            </attachments>
+        </test-case>
+        <test-case start='1583416486407' status='passed' stop='1583416490945'>
+            <name>Validate  error message functionality of firstName and lastName</name>
+            <title>Validate  error message functionality of firstName and lastName</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5f4c2470-a80f-4b1a-89e8-1054206c9353-attachment.png' type='image/png' size='126843'/>
+            </attachments>
+        </test-case>
+        <test-case start='1583416490945' status='passed' stop='1583416492495'>
+            <name>varify password functionality for mismatched password with confirm password</name>
+            <title>varify password functionality for mismatched password with confirm password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='38101312-bf34-44d4-bd77-3cfc29b37515-attachment.png' type='image/png' size='125035'/>
+            </attachments>
+        </test-case>
+        <test-case start='1583416492495' status='passed' stop='1583416494863'>
+            <name>Varify errormessage functionality of first name when first name is filled</name>
+            <title>Varify errormessage functionality of first name when first name is filled</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fd35b4be-1517-46f9-937e-4bf437fc5929-attachment.png' type='image/png' size='125596'/>
+            </attachments>
+        </test-case>
+        <test-case start='1583416494863' status='failed' stop='1583416496320'>
+            <name>should show error message for empty phone number field</name>
+            <title>should show error message for empty phone number field</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='99ab241d-5dd9-452f-9034-cec2bd49b3e0-attachment.png' type='image/png' size='125596'/>
+            </attachments>
+            <failure>
+                <message>Expected true to be false.</message>
+                <stack-trace>Error: Failed expectation
+                    at ValidationHelper.validateBoolean (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\helper\validationHelper.js:10:41)
+                    at C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\pages\registrationPageTest.js:99:30
+                    at ManagedPromise.invokeCallback_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583416496321' status='passed' stop='1583416499685'>
+            <name>fill registration page and validation successfull registration page</name>
+            <title>fill registration page and validation successfull registration page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8789fdb9-42cb-4fbd-a663-f02c99b24022-attachment.png' type='image/png' size='117268'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

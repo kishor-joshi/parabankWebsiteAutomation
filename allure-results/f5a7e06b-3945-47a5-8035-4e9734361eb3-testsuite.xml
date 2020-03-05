@@ -1,0 +1,84 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583414053843' stop='1583414133670'>
+    <name>parabank website automation</name>
+    <title>parabank website automation</title>
+    <test-cases>
+        <test-case start='1583414063454' status='passed' stop='1583414064397'>
+            <name>should validate registration page title</name>
+            <title>should validate registration page title</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9a310c6a-a93d-4932-98d5-6fe932590f0d-attachment.png' type='image/png' size='221423'/>
+            </attachments>
+        </test-case>
+        <test-case start='1583414064397' status='passed' stop='1583414066936'>
+            <name>validate registation link functionality</name>
+            <title>validate registation link functionality</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6fae434d-2035-4e9f-bbbc-8f93fe8e5f81-attachment.png' type='image/png' size='115479'/>
+            </attachments>
+        </test-case>
+        <test-case start='1583414066936' status='passed' stop='1583414069273'>
+            <name>Validate  error message functionality of firstName and lastName</name>
+            <title>Validate  error message functionality of firstName and lastName</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c050da54-824c-4415-b076-1972b64653fe-attachment.png' type='image/png' size='128447'/>
+            </attachments>
+        </test-case>
+        <test-case start='1583414069273' status='passed' stop='1583414071130'>
+            <name>varify password functionality for mismatched password with confirm password</name>
+            <title>varify password functionality for mismatched password with confirm password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a6868205-6781-455d-be38-d4771af1527d-attachment.png' type='image/png' size='126845'/>
+            </attachments>
+        </test-case>
+        <test-case start='1583414071130' status='passed' stop='1583414072763'>
+            <name>Varify errormessage functionality of first name when first name is filled</name>
+            <title>Varify errormessage functionality of first name when first name is filled</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c60a2c1d-4246-4967-836f-4eda92deb4d8-attachment.png' type='image/png' size='127336'/>
+            </attachments>
+        </test-case>
+        <test-case start='1583414072763' status='passed' stop='1583414073165'>
+            <name>should show error message for empty phone number field</name>
+            <title>should show error message for empty phone number field</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='473265e2-7a55-4a5d-82b0-6b303a114b86-attachment.png' type='image/png' size='127321'/>
+            </attachments>
+        </test-case>
+        <test-case start='1583414073165' status='failed' stop='1583414133669'>
+            <name>fill registration page and validation successfull registration page</name>
+            <title>fill registration page and validation successfull registration page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='19d8f518-bb98-499b-b291-1edf3056c57a-attachment.png' type='image/png' size='132776'/>
+            </attachments>
+            <failure>
+                <message>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.</message>
+                <stack-trace>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
+                    at Timeout._onTimeout (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4281:23)
+                    at listOnTimeout (internal/timers.js:531:17)
+                    at processTimers (internal/timers.js:475:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,49 @@
+[2020-03-05T20:06:20.314] [DEBUG] default - navigated to url
+[2020-03-05T20:06:30.473] [DEBUG] default - page title is validated
+[2020-03-05T20:06:31.073] [DEBUG] default - clicked on element #loginPanel>p:nth-child(3)>a
+[2020-03-05T20:06:31.113] [DEBUG] default - navigated to register form page
+[2020-03-05T20:06:32.464] [DEBUG] default - send text is: Hi-tech city
+[2020-03-05T20:06:32.478] [DEBUG] default - send text is: Hyderabad
+[2020-03-05T20:06:32.525] [DEBUG] default - send text is: Telangana
+[2020-03-05T20:06:32.600] [DEBUG] default - send text is: 500089
+[2020-03-05T20:06:32.626] [DEBUG] default - send text is: 9654873490
+[2020-03-05T20:06:32.632] [DEBUG] default - send text is: 7849384
+[2020-03-05T20:06:32.635] [DEBUG] default - send text is: 12345
+[2020-03-05T20:06:32.640] [DEBUG] default - send text is: ramesh23
+[2020-03-05T20:06:32.682] [DEBUG] default - send text is: 12345
+[2020-03-05T20:06:32.708] [DEBUG] default - send text is: 9654873490
+[2020-03-05T20:06:32.748] [DEBUG] default - clicked on element input[value='Register']
+[2020-03-05T20:06:32.775] [DEBUG] default - clicked on element input[value='Register']
+[2020-03-05T20:06:32.808] [DEBUG] default - validated error functionality of firstname and last name
+[2020-03-05T20:06:35.803] [DEBUG] default - Element's text is: First name is required.
+[2020-03-05T20:06:35.837] [DEBUG] default - actual text matched with expected:  First name is required.
+[2020-03-05T20:06:35.949] [DEBUG] default - Element's text is: Last name is required.
+[2020-03-05T20:06:35.953] [DEBUG] default - actual text matched with expected:  Last name is required.
+[2020-03-05T20:06:36.514] [DEBUG] default - validated password functionality 
+[2020-03-05T20:06:36.446] [DEBUG] default - clicked on element input[value='Register']
+[2020-03-05T20:06:36.440] [DEBUG] default - send text is: zxcv
+[2020-03-05T20:06:36.433] [DEBUG] default - send text is: 12345
+[2020-03-05T20:06:37.691] [DEBUG] default - Element's text is: Passwords did not match.
+[2020-03-05T20:06:37.695] [DEBUG] default - actual text matched with expected:  Passwords did not match.
+[2020-03-05T20:06:38.150] [DEBUG] default - send text is: ramesh
+[2020-03-05T20:06:38.157] [DEBUG] default - send text is: pavar
+[2020-03-05T20:06:38.200] [DEBUG] default - clicked on element input[value='Register']
+[2020-03-05T20:06:38.205] [DEBUG] default - validated error functionality with positive scenario
+[2020-03-05T20:06:40.406] [DEBUG] default - element present behaviour passed:  false
+[2020-03-05T20:06:40.832] [DEBUG] default - clicked on element input[value='Register']
+[2020-03-05T20:06:40.839] [DEBUG] default - validated error functionality of phone number
+[2020-03-05T20:06:41.605] [DEBUG] default - element present behaviour passed:  true
+[2020-03-05T20:06:42.083] [DEBUG] default - send text is: ramesh
+[2020-03-05T20:06:42.153] [DEBUG] default - send text is: Telangana
+[2020-03-05T20:06:42.089] [DEBUG] default - send text is: pavar
+[2020-03-05T20:06:42.093] [DEBUG] default - send text is: Hi-tech city
+[2020-03-05T20:06:42.099] [DEBUG] default - send text is: Hyderabad
+[2020-03-05T20:06:42.200] [DEBUG] default - send text is: 500089
+[2020-03-05T20:06:42.246] [DEBUG] default - send text is: 9654873490
+[2020-03-05T20:06:42.309] [DEBUG] default - send text is: 7849384
+[2020-03-05T20:06:42.314] [DEBUG] default - send text is: 12345
+[2020-03-05T20:06:42.383] [DEBUG] default - send text is: ramesh23
+[2020-03-05T20:06:42.425] [DEBUG] default - send text is: 12345
+[2020-03-05T20:06:42.474] [DEBUG] default - send text is: 9654873490
+[2020-03-05T20:06:42.485] [DEBUG] default - clicked on element input[value='Register']
+[2020-03-05T20:06:42.519] [DEBUG] default - validated successfull registration form

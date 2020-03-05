@@ -1,0 +1,224 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583416139411' stop='1583416142356'>
+    <name>parabank website automation</name>
+    <title>parabank website automation</title>
+    <test-cases>
+        <test-case start='1583416139452' status='failed' stop='1583416139821'>
+            <name>should validate registration page title</name>
+            <title>should validate registration page title</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d74a6d8b-452a-49f0-9404-6553824d06c8-attachment.png' type='image/png' size='4262'/>
+            </attachments>
+            <failure>
+                <message>Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"</message>
+                <stack-trace>Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\browser.js:463:23
+                    at ManagedPromise.invokeCallback_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as click] (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as click] (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at ElementHelper.clickOnElement (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\helper\elementHelper.js:16:64)
+                    at Function.navigateToRegistrationForm (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\pages\registrationPageTest.js:26:23)
+                    at Suite.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:11:45)
+                    at addSpecsToSuite (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:4:1)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583416139821' status='failed' stop='1583416140139'>
+            <name>validate registation link functionality</name>
+            <title>validate registation link functionality</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7ff6288b-c383-4a19-a429-10896f8e3ac2-attachment.png' type='image/png' size='4262'/>
+            </attachments>
+            <failure>
+                <message>Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"</message>
+                <stack-trace>Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\browser.js:463:23
+                    at ManagedPromise.invokeCallback_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as click] (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as click] (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at ElementHelper.clickOnElement (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\helper\elementHelper.js:16:64)
+                    at Function.navigateToRegistrationForm (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\pages\registrationPageTest.js:26:23)
+                    at Suite.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:11:45)
+                    at addSpecsToSuite (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:4:1)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583416140139' status='failed' stop='1583416140580'>
+            <name>Validate  error message functionality of firstName and lastName</name>
+            <title>Validate  error message functionality of firstName and lastName</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0fd1b336-cdbe-4427-9238-e89065fbf10e-attachment.png' type='image/png' size='4262'/>
+            </attachments>
+            <failure>
+                <message>Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"</message>
+                <stack-trace>Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\browser.js:463:23
+                    at ManagedPromise.invokeCallback_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as click] (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as click] (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at ElementHelper.clickOnElement (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\helper\elementHelper.js:16:64)
+                    at Function.navigateToRegistrationForm (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\pages\registrationPageTest.js:26:23)
+                    at Suite.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:11:45)
+                    at addSpecsToSuite (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:4:1)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583416140580' status='failed' stop='1583416140984'>
+            <name>varify password functionality for mismatched password with confirm password</name>
+            <title>varify password functionality for mismatched password with confirm password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='126d75b2-efc9-4641-b60f-882845399ec4-attachment.png' type='image/png' size='4262'/>
+            </attachments>
+            <failure>
+                <message>Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"</message>
+                <stack-trace>Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\browser.js:463:23
+                    at ManagedPromise.invokeCallback_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as click] (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as click] (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at ElementHelper.clickOnElement (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\helper\elementHelper.js:16:64)
+                    at Function.navigateToRegistrationForm (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\pages\registrationPageTest.js:26:23)
+                    at Suite.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:11:45)
+                    at addSpecsToSuite (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:4:1)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583416140984' status='failed' stop='1583416141452'>
+            <name>Varify errormessage functionality of first name when first name is filled</name>
+            <title>Varify errormessage functionality of first name when first name is filled</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d2b9ee97-1473-4131-a35c-82d7a6b49146-attachment.png' type='image/png' size='4262'/>
+            </attachments>
+            <failure>
+                <message>Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"</message>
+                <stack-trace>Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\browser.js:463:23
+                    at ManagedPromise.invokeCallback_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as click] (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as click] (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at ElementHelper.clickOnElement (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\helper\elementHelper.js:16:64)
+                    at Function.navigateToRegistrationForm (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\pages\registrationPageTest.js:26:23)
+                    at Suite.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:11:45)
+                    at addSpecsToSuite (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:4:1)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583416141452' status='failed' stop='1583416141843'>
+            <name>should show error message for empty phone number field</name>
+            <title>should show error message for empty phone number field</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='aa776558-8a49-465d-a280-eeca638c6f0a-attachment.png' type='image/png' size='4262'/>
+            </attachments>
+            <failure>
+                <message>Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"</message>
+                <stack-trace>Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\browser.js:463:23
+                    at ManagedPromise.invokeCallback_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as click] (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as click] (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at ElementHelper.clickOnElement (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\helper\elementHelper.js:16:64)
+                    at Function.navigateToRegistrationForm (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\pages\registrationPageTest.js:26:23)
+                    at Suite.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:11:45)
+                    at addSpecsToSuite (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:4:1)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583416141843' status='failed' stop='1583416142355'>
+            <name>fill registration page and validation successfull registration page</name>
+            <title>fill registration page and validation successfull registration page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='398f62ef-622f-477d-a8c6-4bb022f49235-attachment.png' type='image/png' size='4262'/>
+            </attachments>
+            <failure>
+                <message>Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"</message>
+                <stack-trace>Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\browser.js:463:23
+                    at ManagedPromise.invokeCallback_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as click] (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as click] (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at ElementHelper.clickOnElement (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\helper\elementHelper.js:16:64)
+                    at Function.navigateToRegistrationForm (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\pages\registrationPageTest.js:26:23)
+                    at Suite.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:11:45)
+                    at addSpecsToSuite (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\kishor.joshi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\kishor.joshi\Desktop\protractor\parabankWebsiteAutomation\dist\out-tsc\spec\spec.js:4:1)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
